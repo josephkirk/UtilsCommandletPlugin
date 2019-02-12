@@ -1,22 +1,6 @@
-# CommandletPlugin
+# Utilities Function CommandletPlugin
 
-Unreal Engine 4 plug-in that that demonstrates how to implement a commandlet.
-
-![Screenshot](Docs/screenshot.png)
-
-
-## Supported Platforms
-
-This plug-in was last built against **Unreal Engine 4.19**. It works on all
-platforms.
-
-
-## Dependencies
-
-This plug-in requires Visual Studio and either a C++ code project or the full
-Unreal Engine 4 source code from GitHub. If you are new to programming in UE4,
-please see the official [Programming Guide](https://docs.unrealengine.com/latest/INT/Programming/index.html)! 
-
+Unreal Engine 4 commandlet plug-in contain utilities to query and wrangle assets.
 
 ## Usage
 
@@ -34,16 +18,4 @@ After compiling the plug-in, you have to **enable it** in Unreal Editor's
 plug-in browser.
 
 Use the *-run* command line parameter to run one of the commandlets in this
-plug-in, i.e. *YourGame.exe -run=HelloWorld*
-
-
-## Support
-
-Please [file an issue](https://github.com/ue4plugins/CommandletPlugin/issues),
-submit a [pull request](https://github.com/ue4plugins/CommandletPlugin/pulls?q=is%3Aopen+is%3Apr)
-or email us at info@headcrash.industries
-
-
-## References
-
-* [Introduction to UE4 Plugins](https://wiki.unrealengine.com/An_Introduction_to_UE4_Plugins)
+plug-in, i.e. *YourGame.exe -run=Utils*
