@@ -1,24 +1,23 @@
 {
-	"FileVersion" : 3,
-	"Version" : 7,
-	"VersionName" : "7.0",
+	"FileVersion" : 1,
+	"Version" : 1,
+	"VersionName" : "1.0",
 	"EngineVersion" : "4.19.0",
-	"FriendlyName" : "Commandlet Plugin",
-	"Description" : "Demonstates how to implement a commandlet in a plug-in.",
+	"FriendlyName" : "Utils Commandlet Plugin",
+	"Description" : "utils commandlet for wrangling asset.",
 	"Category" : "Examples",
-	"CreatedBy" : "Headcrash Industries LLC",
-	"CreatedByURL" : "http://headcrash.industries",
+	"CreatedBy" : "Nguyen Phi Hung",
 	"DocsURL" : "",
 	"MarketplaceURL" : "",
-	"SupportURL" : "https://github.com/ue4plugins/CommandletPlugin",
+	"SupportURL" : "https://github.com/ue4plugins/UtilsCommandletPlugin",
 	"EnabledByDefault" : true,
 	"CanContainContent" : false,
-	"IsBetaVersion" : false,
+	"IsBetaVersion" : true,
 	"Installed" : false,
 	"Modules" :
 	[
 		{
-			"Name" : "CommandletPlugin",
+			"Name" : "UtilsCommandletPlugin",
 			"Type" : "Runtime",
 			"LoadingPhase" : "Default"
 		}

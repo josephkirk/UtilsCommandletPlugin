@@ -1,13 +1,11 @@
 // Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
 
-#include "CommandletPluginPrivate.h"
+#include "UtilsCommandletPluginPrivate.h"
 
 #include "Modules/ModuleInterface.h"
 #include "Modules/ModuleManager.h"
 
-
 DEFINE_LOG_CATEGORY(LogCommandletPlugin);
-
 
 /**
  * Implements the CommandletPlugin module.
@@ -15,18 +13,16 @@ DEFINE_LOG_CATEGORY(LogCommandletPlugin);
 class FCommandletPluginModule
 	: public IModuleInterface
 {
-public:
-
+  public:
 	//~ IModuleInterface interface
 
-	virtual void StartupModule() override { }
-	virtual void ShutdownModule() override { }
+	virtual void StartupModule() override {}
+	virtual void ShutdownModule() override {}
 
 	virtual bool SupportsDynamicReloading() override
 	{
 		return true;
 	}
 };
-
 
 IMPLEMENT_MODULE(FCommandletPluginModule, CommandletPlugin);
